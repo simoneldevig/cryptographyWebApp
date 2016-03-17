@@ -1,0 +1,26 @@
+<div class="row" ng-controller="gcdController">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-6 description">
+                <h1>Greatest Common Denominator</h1>
+                <p>Skriv et tal ind i inputA -og B, og brug algoritmen til at finde frem til den største fællesnævner</p>
+            </div>
+        </div>
+
+        <form class="form-horizontal">
+            <fieldset>
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <input class="form-control" ng-model="inputA" name="selectbasic" placeholder="Input A">
+                    </div>
+                    <div class="col-md-4">
+                        <input class="form-control" ng-model="inputB" name="selectbasic" placeholder="Input B">
+                    </div>
+                    <div class="col-md-4">
+                        <input class="form-control" value="{{gdcResult()}}" name="selectbasic" ng-readonly="true">
+                    </div>                
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>

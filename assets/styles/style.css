@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900,900italic,700italic,700,500italic,500,400italic);
+body{
+  font-family: 'Roboto', sans-serif!important;
+}
+.navbar-brand{
+    text-transform: uppercase;
+}
+.lorem {
+  text-align: justify;
+}
+.row{
+    display: flex;
+}
+.description{
+    display: block;
+    margin: 0px auto 30px;
+    text-align: center;
+}
+h1{
+    font-weight: 900;
+    text-transform: uppercase;
+    color: dimgray;
+}
+textarea{
+    height: 250px!important;
+    resize: none;
+}
+.controls{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.controls > select{
+    width: 150px;
+}
+.radioBtn{
+    display: inline-flex;
+}
